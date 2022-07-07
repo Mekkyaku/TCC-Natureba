@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+    font-family:'Montserrat';
+    src: url('Montserrat-VariableFont_wght.ttf') format('truetype');
+}
 
 *{
     box-sizing: border-box;
@@ -156,25 +160,3 @@ select.account{
     }
 
 /* -- Index -- */
-
-button.index{
-    background-color: #55CC00;
-    border: none;
-    cursor: pointer;
-    font-weight: bold;
-    padding: 16px;
-    transition: ease 0.2s;
-    width: 250px;
-}
-
-    button.index:hover{
-        background-color: #55DD00;
-    }
-
-div.index-content{
-    background-color: #F9F9F9;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    margin: 13% auto;
-    padding: 32px;
-    width: 500px;
-}    
