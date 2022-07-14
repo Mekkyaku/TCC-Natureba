@@ -698,3 +698,130 @@ td.main-side-text{
 ul.main{
     list-style: none;
 }
+
+/* Área do chat */
+
+#areaprincipal{
+    background-color: white;
+    display: flex;
+    height: 500px;
+}
+
+    #chatarea{
+        background-color: #BBFF88;
+        width: 50%;
+        display: block;
+    }
+        #conversa{
+            height: 90%;
+            background-color: white;
+            overflow-y: scroll;
+            overflow-x: hidden;
+        }
+            .imgconversa{
+                max-width: 60px;
+                max-height: 60px;
+                border-radius: 100%;
+            }
+
+            .msg{
+                font-size: 150%;
+                background-color: #DDFFCC;
+                padding: 0 10px 0 10px;
+                border-top-right-radius: 3%;
+                border-bottom-right-radius: 3%;
+                border-bottom-left-radius: 3%;
+            }
+
+            .msgrecebida{
+                display: flex;
+                max-width: 50%;
+                overflow-wrap: anywhere;
+                background-color: white;
+                margin-right: auto;
+                margin-left: 10px;
+                margin-bottom: 10px;
+
+            }
+
+            .msgenviada{
+                display: flex;
+                max-width: 50%;
+                overflow-wrap: anywhere;
+                margin-left: auto;
+                margin-right: 10px;
+                margin-bottom: 10px;
+            }
+
+        .baixo{
+            height: 10%;
+            width: 100%;
+            background-color: white;
+        }
+
+        .baixo form{
+            display: flex;
+            height: 50%;
+        }
+
+            #txtbox{
+                width: 91.5%;
+                height: 200%;
+                margin-top: 0px;
+                margin-bottom: auto;
+                border: none;
+
+                
+            }
+                #txtbox:focus{
+                                outline: none;
+                            }
+            #enviar{
+                background: url('../images/instagram-direto.png');
+                background-size:cover;
+                background-color: white;
+                width: 40px;
+                height: 40px;
+                border: none;
+                margin-top: 10px;
+                margin-right: px;
+            }
+
+    #listarea{
+        background-color: white;
+        margin-left: 20px;
+        width: 20%;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+        border-bottom: 2px solid black;
+        
+    }
+            #titulo{
+                background-color: white;
+                text-align: center;
+                border-bottom: 2px solid black;
+                
+            }
+
+            .contatos{
+                display: flex;
+                width: 100%;
+                background: none;
+                border: none;
+                border-bottom: 2px solid black;
+            }
+
+                .contatos img{
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 100%;
+                    border: none;
+                    
+                }
+
+                .contatos p{
+                    margin-top: auto;
+                    margin-bottom: auto;
+                    margin-left: 10px;
+                    font-size: 20px;
+                }
