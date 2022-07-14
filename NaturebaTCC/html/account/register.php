@@ -1,11 +1,10 @@
 <?php
     session_start();
 
-    if ((isset($_SESSION["login"]) && ($_SESSION["login"] == TRUE))){
+    if (isset($_SESSION["login"]) && ($_SESSION["login"] == TRUE)){
         header("Location: #");
         die;
     }
-    
     else{
         if (isset($_POST["name"]) && isset($_POST["last"]) && isset($_POST["email"]) && isset($_POST["pass"]) && isset($_POST["day"]) && isset($_POST["month"]) && isset($_POST["year"]) && isset($_POST["option"])){
             $name = filter_input(INPUT_POST, "name", FILTER_SANITIZE_SPECIAL_CHARS);
@@ -124,7 +123,7 @@
                             <option value="7">Julho</option>
                             <option value="8">Agosto</option>
                             <option value="9">Setembro</option>
-                            <option value="10">Outubro</option>
+                            <option value="10">Outrubro</option>
                             <option value="11">Novembro</option>
                             <option value="12">Dezembro</option>
                         </select>
