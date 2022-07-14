@@ -2,7 +2,7 @@
     session_start();
 
     if ((isset($_SESSION["login"]) && ($_SESSION["login"] == TRUE))){
-        header("Location: #");
+        header("Location: ../main/home.php");
         die;
     }
     else{
@@ -11,7 +11,7 @@
         if ((isset($_POST["email"])) && (isset($_POST["password"]))){
             $con = mysqli_connect("localhost", "root", "", "naturebabd");
             $sql = "SELECT * FROM `contas`;";
-            $res = mysqli_query($con, $sql);
+            $res = mysqli_query($con, $sql);    
 
                 $email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
                 $password = $_POST["password"];
@@ -29,7 +29,7 @@
                             $_SESSION["login"] = TRUE;
                             $_SESSION["ID"] = $user["ID"];
 
-                            header("Location: #");
+                            header("Location: ../main/home.php");
                         }
                         else{
                             $_POST["message"] = 2;
