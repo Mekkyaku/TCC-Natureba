@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+    font-family:'Montserrat';
+    src: url('Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: #E9E9E9;
+}
+
+div.center{
+    margin-left: auto;
+    margin-right: auto;
+    width: min-content;
+}
+
+/* -- Account -- */
+a.account{
+    color: #55CC00;
+    text-decoration: underline;
+}
+
+div.account-content{
+    background-color: #F9F9F9;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 16px;
+    width: 500px;
+}
+
+div.account-file{
+    background-image: URL(../images/misc/edit.png);
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+    margin-left: 200px;
+    margin-top: -46.75px;
+    position: absolute;
+    transition: ease 0.2s;
+    width: 40px;
+}
+
+    div.account-file:hover{
+        background-image: url(../images/misc/edit-hover.png);
+    }
+
+div.account-forms{
+    margin-top: 16px;
+    width: 325px;
+}
+
+div.account-message{
+    background-color: #FFAAAA;
+    margin: 16px 0;
+    padding: 8px;
+    text-align: center;
+    width: 325px;
+}
+
+h1.account{
+    color: #272727;
+    font-size: 32px;
+    text-align: center;
+}
+
+h2.account{
+    color: #55CC00;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+}
+
+h3.account{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+img.account{
+    border-radius: 50%;
+    height: 150px;
+    margin-left: 90px;
+    width: 150px;
+}
+
+input.account{
+    background-color: #F9F9F9;
+    border: none;
+    border-bottom: 2px solid #55CC00;
+    padding: 8px 4px;
+    transition: ease 0.2s;
+    width: 325px;
+}
+
+    input.account:focus{
+        background-color: #DDFFCC;
+        outline: none;
+    }
+
+input.account-file{
+    display: none;
+}
+
+input.account-submit{
+    background-color: #55CC00;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 8px;
+    transition: ease 0.2s;
+    width: 325px;
+}
+
+    input.account-submit:hover{
+        background-color: #55DD00;
+    }
+
+label.account{
+    font-size: 16px;
+}
+
+label.account-radio{
+    font-size: 13px;
+}
+
+p.account{
+    color: #272727;
+    font-size: 13px;
+}
+
+p.account-message{
+    color: #CC2222;
+    font-size: 13px;
+}
+
+select.account{
+    background-color: #F9F9F9;
+    border: 1px solid #F9F9F9;
+    border-bottom: 2px solid #55CC00;
+    border-radius: 0.1px;
+    padding: 8px 4px;
+    outline: none;
+    transition: ease 0.2s;
+    width: 325px;
+}
+
+    select.account:focus{
+        background-color: #DDFFCC;
+        outline: none;
+    }
+
+/* -- Index -- */
