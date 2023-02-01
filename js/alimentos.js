@@ -28,6 +28,7 @@ function showInfo(id){
 function hideInfo(){
     document.getElementById('info').style.display = "none";
     document.getElementById('s-alimento').style.display = "none";
+    document.getElementById('body').style.overflow = "auto";
 }
 
 document.getElementById("image").onchange = function(){

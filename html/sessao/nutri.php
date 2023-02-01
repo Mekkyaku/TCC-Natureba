@@ -44,14 +44,36 @@
                     </div>
 
                     <div style="margin-top: 16px">
-                        <label for="crm">CRM</label>
-                        <input class="forms" name="crm" placeholder="123456789XY" required type="text">
+                        <label for="crn">CRN</label>
+                        <div id="crn">
+                            <select class="forms" name="regiao" required style="width: 25%">
+                                <option disabled hidden selected>Região</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                            </select>
+                            <input class="forms" maxlength="4" minlength="4" name="digitos" placeholder="0000" required style="width: 40%" type="text">
+                            <select class="forms" name="estado" required style="width: 32%">
+                                <option disabled hidden selected>Selecionar</option>
+                                <option value="-">-</option>
+                                <option value="P">P</option>
+                                <option value="S">S</option>
+                            </select>
+                        </div>
                     </div>
 
                     <div style="margin-top: 16px">
                         <label for="localizacao">Localização</label>
                         <div id="localizacao" style="display: flex; justify-content: space-between;">
-                            <input class="forms" name="cidade" placeholder="Cidade" require style="width: 83%" type="text">
+                            <input class="forms" name="cidade" placeholder="Cidade" required style="width: 83%" type="text">
                             <select class="forms" name="uf" required style="width: 15%">
                                 <option disabled hidden selected>UF</option>
                                 <option value="AC">AC</option>

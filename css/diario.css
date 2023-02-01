@@ -1,14 +1,180 @@
-#wrapperd {
-
-    border: 1px solid black;
-    border-radius: 2%;
-
+button.cliente{
+    background-color: #A5E887;
+    background-image: url(../img/site/diario.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    height: 48px;
+    padding: 8px 0;
+    transition: linear 0.2s;
+    width: 48px;
 }
 
-#afterdown{
+    button.cliente:hover{
+        background-color: #B5F897;
+        transform: scale(105%);
+    }
 
-    border: 1px solid black;
-    border-top: none;
-    border-radius: 2%;
-
+button.historico{
+    background-color: #A5E887;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 8px 16px;
+    transition: linear 0.2s;
 }
+
+    button.historico:hover{
+        background-color: #B5F897;
+        transform: scale(105%);
+    }
+
+div.button{
+    background-color: #A5E887;
+    background-image: url(../img/site/edit.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 50px;
+    position: absolute;
+    margin-top: -66px;
+    margin-left: 197px;
+    transition: linear 0.2s;
+    width: 50px;
+}
+
+    div.button:hover{
+        background-color: #B5F897;
+        transform: scale(105%);
+    }
+
+div.cliente{
+    align-items: center;
+    background-color: #E5E5E5;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    padding: 16px;
+    width: 45%;
+}
+
+div.linha{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+div.paginas{
+    background-color: #A5E887;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 16px;
+    text-align: center;
+    transition: linear 0.2s;
+    width: 100%;
+}
+
+    div.paginas:hover{
+        background-color: #B5F897;
+        transform: scale(105%);
+    }
+
+div.temnao{
+    font-size: 18px;
+    margin-top: 128px;
+    text-align: center;
+    width: 100%;
+}
+
+h1.diario{
+    font-size: 24px;
+}
+
+h1.nutri{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+h2.diario{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+img.cliente{
+    border-radius: 50%;
+    height: 64px;
+    object-fit: cover;
+    width: 64px;
+}
+
+img.diario{
+    border: 1px solid #E7E7E7;
+    border-radius: 8px;
+    height: 384px;
+    object-fit: cover;
+    width: 256px;
+}
+
+input.diario{
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    font-size: 14px;
+    height: 55px;
+    padding: 16px;
+    transition: linear 0.2s;
+    width: 100%;
+}
+
+    input.diario:focus{
+        border: 1px solid #A5E887;
+        outline: none;
+    }
+
+input.submit{
+    background-color: #A5E887;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 8px 0;
+    transition: linear 0.2s;
+    width: 192px;
+}
+
+    input.submit:hover{
+        background-color: #B5F897;
+        transform: scale(105%);
+    }
+
+label{
+    font-size: 14px;
+}
+
+p.cliente{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+textarea.diario{
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    font-size: 14px;
+    height: 55px;
+    padding: 16px;
+    resize: none;
+    transition: linear 0.2s;
+    width: 100%;
+}
+
+    textarea.diario:focus{
+        border: 1px solid #A5E887;
+        outline: none;
+    }

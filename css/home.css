@@ -1,76 +1,33 @@
-.wfeed{
-    display: flex;
-    flex-direction: row;
-    height: 100%;
+div.box{
+    background-color: #A5E887;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 12px;
+    transition: linear 0.2s;
     width: 100%;
 }
 
-#feed {
-    width: 70%;
-}
-
-#feedbar{
-    width: 30%;
-    border: 1px solid black;
-    display: block;
-}
-
-.post {
-    display: flex;
-    flex-direction: column;
-}
-
-.post img {
-    border-radius: 100%;
-    max-width: 55px;
-    max-height: 55px;
-}
-
-.wrapperpost {
-    display: flex;
-
-}
-
-.titulo {
-    margin: 0px 0px 0px 0px;
-    text-align: center;
-}
-
-.conteudo {
-    margin: 0px 10px 0px 10px;
-    border: 1px solid black;
-    width: 100%;
-}
-
-.conteudo a{
-    text-decoration: underline;
-}
-    .cheque{
-        margin-left: auto;
-        margin-right: 2px;
-        width: fit-content;
+    div.box:hover{
+        background-color: #B5F897;
+        transform: scale(101%);
     }
 
-.profissionais {
-    border: 1px solid black;
-    margin: 0px 2px 5px 2px;
-    display: flex;
+h1.home{
+    font-size: 24px;
 }
 
-.profissionais img{
-    border-radius: 100%;
-    width: 35px;
-    height: 35px;
-    margin: auto auto auto auto;
-
+h2.home{
+    font-size: 20px;
+    font-weight: normal;
 }
 
-.profissionais button{
-    margin-left: 65%;
+img.home{
+    height: 400px;
+    object-fit: cover;
+    width: 400px;
 }
 
-.wrpfs {
-    margin: 0px 0px 0px 5px;
-    display: flex;
+p.home{
+    font-weight: bold;
+    font-size: 16px;
 }
-

@@ -73,7 +73,7 @@
                         </div>
                     </div>
                     <div class="membro">
-                        <a href="#">
+                        <a href="https://github.com/Mekkyaku">
                             <div><img alt="Igor" class="equipe" src="../../img/site/no-image.png"></div>
                         </a>
                         <div class="nome">

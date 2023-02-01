@@ -27,10 +27,7 @@
         ?>
 
         <div class="body">
-            <div class="info" id="info">
-                 
-            </div>
-
+            <div class="info" id="info"></div>
             <div class="a-shadow" id="s-alimento" onclick="hideInfo()"></div>
 
             <?php

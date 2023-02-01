@@ -63,7 +63,7 @@ div.noti{
     position: fixed;
     right: 32px;
     width: 360px;
-    z-index: 4;
+    z-index: 4000;
 }
 
 div.noti-o{
