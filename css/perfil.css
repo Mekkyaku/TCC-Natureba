@@ -1,0 +1,157 @@
+button.post{
+    background-color: #A5E887;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 32px;
+    transition: linear 0.2s;
+    width: 96px;
+}
+
+    button.post:hover{
+        background-color: #B5F897;
+        transform: scale(105%);
+    }
+
+button.sup{
+    background-color: #A5E887;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 40px;
+    transition: linear 0.2s;
+    width: 40px;
+}
+
+    button.sup:hover{
+        background-color: #B5F897;
+        transform: scale(105%);
+    }
+
+div.bio{
+    border-radius: 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    overflow-wrap: break-word;
+    padding: 16px;
+    width: 250px;
+}
+
+div.codigo{
+    background-color: #A5E887;
+    border-radius: 8px;
+    height: 40px;
+    padding: 8px 16px;
+    width: fit-content;
+}
+
+div.feed{
+    border-radius: 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    height: fit-content;
+    margin-left: 32px;
+    padding: 16px;
+    width: 100%;
+}
+
+div.fundo{
+    background-color: #E5E5E5;
+    height: 196px;
+    margin-left: -64px;
+    margin-top: -32px;
+    width: 960px;
+}
+
+div.info{
+    background-color: #E5E5E5;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    max-width: 250px;
+    padding: 16px;
+    transition: linear 0.2s;
+}
+
+    div.info:hover{
+        background-color: #ECECEC;
+        transform: scale(105%);
+    }
+
+div.nome{
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    overflow-wrap: break-word;
+    padding: 8px 32px;
+    width: 541px;
+}
+
+div.post{
+    align-items: center;
+    background-color: #F0F0F0;
+    border-radius: 8px;
+    display: flex;
+    padding: 16px;
+}
+
+div.sup{
+    display: flex;
+    margin-top: -125px;
+    position: absolute;
+}
+
+div.tipo{
+    background-color: #E5E5E5;
+    border-radius: 8px;
+    height: 40px;
+    opacity: 0;
+    padding: 8px 16px;
+    transition: opacity 1s, visibility 1s linear;
+    visibility: hidden;
+}
+
+h1.perfil{
+    font-size: 32px;
+}
+
+h1.post{
+    font-size: 16px;
+}
+
+h2.post{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+img.perfil{
+    border-radius: 50%;
+    height: 250px;
+    object-fit: cover;
+    width: 250px;
+}
+
+img.post{
+    background-color: white;
+    border-radius: 50%;
+    height: 64px;
+    object-fit: cover;
+    width: 64px;
+}
+
+p.codigo{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+p.info{
+    font-size: 14px;
+}
+
+p.post{
+    font-size: 14px;
+}
+
+p.tipo{
+    font-size: 14px;
+}

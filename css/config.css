@@ -1,0 +1,295 @@
+button.delete{
+    background-color: #F0A3A3;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    height: 32px;
+    transition: linear 0.2s;
+    width: 96px;
+}
+
+    button.delete:hover{
+        background-color: #F0B3B3;
+        transform: scale(105%);
+    }
+
+button.dropdown{
+    background-color: #E0E0E0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 16px;
+    text-align: left;
+    transition: linear 0.2s;
+    width: 100%;
+}
+
+    button.dropdown:hover{
+        background-color: #E5E5E5;
+        transform: scale(101%);
+    }
+
+button.icon{
+    background-color: #A5E887;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 32px;
+    transition: linear 0.2s;
+    width: 32px;
+}
+
+    button.icon:hover{
+        background-color: #B5F897;
+        transform: scale(105%);
+    }
+
+div.button{
+    background-color: #A5E887;
+    background-image: url(../img/site/edit.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 40px;
+    position: absolute;
+    margin-left: 88px;
+    margin-top: -46px;
+    transition: linear 0.2s;
+    width: 40px;
+}
+
+    div.button:hover{
+        background-color: #B5F897;
+        transform: scale(105%);
+    }
+
+div.center{
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+div.dropada{
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-top: 16px;
+    padding: 16px;
+}
+
+div.error{
+    background-color: #F0A3A3;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    padding: 8px;
+    text-align: center;
+    transition: opacity 2s linear;
+}
+
+div.form{
+    background-color: #F0F0F0;
+    border-radius: 8px;
+    margin-top: 16px;
+    padding: 16px;
+    width: 100%;
+}
+
+div.nutri{
+    align-content: center;
+    background-color: #F0F0F0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    padding: 16px;
+    padding-bottom: 9px;
+    width: 100%;
+}
+
+div.outro-form{
+    background-color: #F0F0F0;
+    border-radius: 8px;
+    display: flex;
+    margin-top: 16px;
+    padding: 32px;
+    width: 100%;
+}
+
+h1.config{
+    font-size: 20px;
+}
+
+h2.config{
+    color: #474747;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h3.config{
+    font-size: 16px;
+}
+
+h4.config{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+img.nutri{
+    border-radius: 50%;
+    height: 64px;
+    object-fit: cover;
+    width: 64px;
+}
+
+img.perfiledit{
+    border-radius: 50%;
+    height: 128px;
+    object-fit: cover;
+    width: 128px;
+}
+
+input.config{
+    border: 1px solid #E0E0E0;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 4px;
+    padding: 8px;
+    padding-right: 16px;
+    transition: linear 0.2s;
+    width: 100%;
+}
+
+    input.config:focus{
+        border: 1px solid #A5E887;
+        outline: none;
+    }
+
+input.configg{
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 8px;
+    padding-right: 16px;
+    transition: linear 0.2s;
+    width: 100%;
+}
+
+    input.configg:focus{
+        border: 1px solid #A5E887;
+        outline: none;
+    }
+
+input.sharp{
+    background-color: #E0E0E0;
+    border: none;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px;
+    padding-left: 16px;
+    transition: linear 0.2s;
+}
+
+    input.sharp:focus{
+        outline: none;
+    }
+
+input.submit{
+    background-color: #A5E887;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 8px 16px;
+    font-size: 14px;
+    transition: linear 0.2s;
+}
+
+    input.submit:hover{
+        background-color: #B5F897;
+        transform: scale(105%);
+    }
+
+input.submitt{
+    background-color: #A5E887;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 8px    16px;
+    font-size: 16px;
+    transition: linear 0.2s;
+    width: 100%;
+}
+
+    input.submitt:hover{
+        background-color: #B5F897;
+        transform: scale(105%);
+    }
+
+label{
+    font-size: 14px;
+}
+
+p.conta{
+    font-size: 14px;
+}
+
+p.error{
+    font-size: 15px;
+}
+
+p.foot{
+    color: #85C867;
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+select.configg{
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 8px;
+    padding-right: 16px;
+    transition: linear 0.2s;
+    width: 100%;
+}
+
+    select.configg:focus{
+        border: 1px solid #A5E887;
+        outline: none;
+    }
+
+textarea.configg{
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    font-size: 14px;
+    height: 150px;
+    padding: 8px;
+    padding-right: 16px;
+    resize: none;
+    transition: linear 0.2s;
+    width: 100%;
+}
+
+    textarea.configg:focus{
+        border: 1px solid #A5E887;
+        outline: none;
+    }

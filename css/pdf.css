@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+    color: #272727;
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+div.pdf{
+    background-color: #FFFFFF;
+    max-width: 930px;
+    padding: 64px 96px;
+}
+
+h1{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+img{
+    height: 48px;
+    object-fit: cover;
+}
+
+textarea{
+    border: none;
+    height: 674px;
+    resize: none;
+    width: 100%;
+}

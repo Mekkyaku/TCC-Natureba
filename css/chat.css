@@ -1,0 +1,166 @@
+button.puts{
+    background-color: #A5E887;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 8px 0;
+    transition: linear 0.2s;
+    width: 128px;
+}
+
+    button.puts:hover{
+        background-color: #B5F897;
+        transform: scale(105%);
+    }
+
+button.submit{
+    background-color: #A5E887;
+    background-image: url(../img/site/enviar.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 36px;
+    transition: linear 0.2s;
+    width: 36px;
+}
+
+    button.submit:hover{
+        background-color: #B5F897;
+        transform: scale(105%);
+    }
+
+div.area{
+    padding: 8px 16px;
+    height: 79.5vh;
+    width: 100%;
+}
+
+div.box{
+    background-color: #E5E5E5;
+    border-radius: 8px;
+    margin-top: 16px;
+    padding: 8px;
+    padding-bottom: 3px;
+    width: 682px;
+}
+
+div.celula{
+    align-items: center;
+    border-bottom: 2px solid #ECECEC;
+    cursor: pointer;
+    display: flex;
+    padding: 8px 16px;
+    transition: linear 0.2s;
+}
+
+    div.celula:hover{
+        background-color: #ECECEC;
+    }
+
+div.chat{
+        background-color: #FDFDFD;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        display: flex;
+        height: 79.5vh;
+        justify-content: space-between;
+        margin-bottom: 32px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 32px;
+        width: 960px;
+}
+
+div.lista{
+    background-color: #E5E5E5;
+    overflow: auto;
+    max-height: 79.5vh;
+    width: 35%;
+}
+
+div.mensagem{
+    display: flex;
+    width: fit-content;
+}
+
+div.mensagens{
+    background-color: #FFFFFF;
+    border: 2px solid #F5F5F5;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 432px;
+    overflow: auto;
+    padding: 16px;
+}
+
+    div.mensagens::-webkit-scrollbar{
+        width: 10px;
+    }
+
+    div.mensagens::-webkit-scrollbar-thumb{
+        background: #D0D0D0;
+        border-radius: 8px;
+    }
+
+    div.mensagens::-webkit-scrollbar-thumb:hover{
+        background: #C0C0C0;
+    }
+
+div.puts{
+    padding: 16px;
+    padding-top: 176px;
+    position: relative;
+    text-align: center;
+}
+
+div.texto{
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    height: fit-content;
+    padding: 4px 8px;
+}
+
+h1.puts{
+    font-size: 20px;
+}
+
+h2.puts{
+    color: #474747;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+img.lista{
+    border-radius: 50%;
+    height: 48px;
+    object-fit: cover;
+    width: 48px;
+}
+
+img.mensagem{
+    border-radius: 50%;
+    height: 64px;
+    object-fit: cover;
+    width: 64px;
+}
+
+p.lista{
+    font-size: 14px;
+}
+
+textarea.chat{
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    height: 39px;
+    padding: 8px;
+    resize: none;
+    width: 100%;
+}
+
+    textarea.chat:focus{
+        outline: none;
+    }

@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+    color: #272727;
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: underline;
+}
+
+body{
+    align-items: center;
+    background-color: #F0F0F0;
+    display: flex;
+    height: 100% !important;
+    width: 100% !important;
+}
+
+div.body{
+    background-color: #F5F5F5;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 32px;
+    width: 35%;
+}
+
+div.button{
+    background-color: #A5E887;
+    background-image: url(../img/site/edit.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 50px;
+    position: absolute;
+    margin-top: -56px;
+    margin-left: 100px;
+    transition: linear 0.2s;
+    width: 50px;
+}
+
+    div.button:hover{
+        background-color: #B5F897;
+        transform: scale(105%);
+    }
+
+div.error{
+    background-color: #F0A3A3;
+    border-radius: 8px;
+    margin-bottom: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    padding: 8px;
+    text-align: center;
+    transition: opacity 2s linear;
+    width: 80%;
+}
+
+div.forms{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+div.h2{
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 8px; 
+    width: 275px;
+}
+
+div.middle{
+    height: 100vh;
+}
+
+h1{
+    font-size: 32px;
+    font-weight: normal;
+    text-align: center;
+}
+
+h2{
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+}
+
+img.sessao{
+    border-radius: 50%;
+    height: 150px;
+    object-fit: cover;
+    width: 150px;
+}
+
+input.forms{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #A5E887;
+    font-size: 14px;
+    padding: 4px 0 ;
+    transition: linear 0.2s;
+    width: 100%;
+}
+
+    input.forms:focus{
+        border-bottom: 2px solid #B5F897;
+        outline: none;
+    }
+
+input.submit{
+    background-color: #A5E887;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px;
+    transition: linear 0.2s;
+    width: 100%;
+}
+
+    input.submit:hover{
+        background-color: #B5F897;
+        transform: scale(105%);
+    }
+
+label.tipo{
+    font-size: 14px;
+}
+
+p.error{
+    font-size: 15px;
+}
+
+p.link{
+    font-size: 14px;
+}
+
+select.forms{
+    background-color: transparent;
+    border: 2px solid #F5F5F5;
+    border-bottom: 2px solid #A5E887;
+    font-size: 14px;
+    padding: 4px 0 ;
+    transition: linear 0.2s;
+    width: 100%;
+}
+
+    select.forms:focus{
+        border-bottom: 2px solid #B5F897;
+        outline: none;
+    }

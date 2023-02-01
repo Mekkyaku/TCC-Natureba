@@ -1,0 +1,14 @@
+#wrapperd {
+
+    border: 1px solid black;
+    border-radius: 2%;
+
+}
+
+#afterdown{
+
+    border: 1px solid black;
+    border-top: none;
+    border-radius: 2%;
+
+}

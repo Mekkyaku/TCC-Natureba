@@ -1,0 +1,73 @@
+button.estrela{
+    background-color: transparent;
+    background-image: url(../img/site/estrela.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    border: none;
+    cursor: pointer;
+    height: 16px;
+    transition: linear 0.2s;
+    width: 16px;
+}
+
+    button.estrela:hover{
+        transform: scale(105%);
+    }
+
+button.visitar{
+    background-color: #A5E887;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    min-width: 64px;
+    padding: 4px 0;
+    transition: linear 0.2s;
+    width: 100%;
+}
+
+    button.visitar:hover{
+        background-color: #B5F897;
+        transform: scale(105%);
+    }
+
+div.linha{
+    display: flex;
+    justify-content: space-between;
+}
+
+div.profissional{
+    align-items: center;
+    background-color: #F0F0F0;
+    border-radius: 8px;
+    display: flex;
+    padding: 16px;
+    width: 48%;
+}
+
+div.puts{
+    margin-top: 48px;
+    text-align: center;
+    width: 100%;
+}
+
+h1.profissionais{
+    font-size: 14px;
+}
+
+h2.profissionais{
+    font-size: 13px;
+    font-weight: normal;
+}
+
+img.profissionais{
+    border-radius: 50%;
+    height: 64px;
+    object-fit: cover;
+    width: 64px;
+}
+
+p.contagem{
+    font-size: 12px;
+    font-weight: bold;
+}

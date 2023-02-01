@@ -1,0 +1,42 @@
+div.back{
+    background-color: #E5E5E5;
+    height: 100vh;
+    position: fixed;
+    width: 196px;
+}
+
+div.side{
+    background-color: #E5E5E5;
+    width: 196px;
+    z-index: 4;
+}
+
+div.small{
+    background-color: #E5E5E5;
+    display: none;
+    width: 96px;
+}
+
+div.side-o{
+    align-items: center;
+    border-bottom: 2px solid #ECECEC;
+    cursor: pointer;
+    display: flex;
+    transition: linear 0.2s;
+    padding: 16px 32px;
+}
+
+    div.side-o:hover{
+        background-color: #ECECEC;
+        transform: scale(105%);
+    }
+
+img.side{
+    height: 32px;
+    object-fit: cover;
+    width: 32px;
+}
+
+p.side{
+    font-size: 14px;
+}

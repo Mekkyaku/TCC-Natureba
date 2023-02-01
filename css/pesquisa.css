@@ -1,0 +1,56 @@
+div.pesquisa{
+    align-items: center;
+    background-color: #ECECEC;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 16px;
+    width: 100%;
+}
+
+input.pesquisa{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #FCFCFC;
+    padding: 4px 0;
+    transition: linear 0.2s;
+    width: 100%;
+}
+
+    input.pesquisa:focus{
+        border-bottom: 2px solid #FFFFFF;
+        outline: none;
+    }
+
+input.pesquisa-s{
+    background-color: #A5E887;
+    background-image: url(../img/site/pesquisa.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 32px;
+    transition: linear 0.2s;
+    width: 32px;
+}
+
+    input.pesquisa-s:hover{
+        background-color: #B5F897;
+        transform: scale(105%);
+    }
+
+select.pesquisa{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #FCFCFC;
+    padding: 4px 0;
+    transition: linear 0.2s;
+    width: 100%;
+}
+
+    select.pesquisa:focus{
+        border-bottom: 2px solid #FFFFFF;
+        outline: none;
+    }

@@ -1,0 +1,76 @@
+.wfeed{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+#feed {
+    width: 70%;
+}
+
+#feedbar{
+    width: 30%;
+    border: 1px solid black;
+    display: block;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+}
+
+.post img {
+    border-radius: 100%;
+    max-width: 55px;
+    max-height: 55px;
+}
+
+.wrapperpost {
+    display: flex;
+
+}
+
+.titulo {
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+.conteudo {
+    margin: 0px 10px 0px 10px;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.conteudo a{
+    text-decoration: underline;
+}
+    .cheque{
+        margin-left: auto;
+        margin-right: 2px;
+        width: fit-content;
+    }
+
+.profissionais {
+    border: 1px solid black;
+    margin: 0px 2px 5px 2px;
+    display: flex;
+}
+
+.profissionais img{
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    margin: auto auto auto auto;
+
+}
+
+.profissionais button{
+    margin-left: 65%;
+}
+
+.wrpfs {
+    margin: 0px 0px 0px 5px;
+    display: flex;
+}
+

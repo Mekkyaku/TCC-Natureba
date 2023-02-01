@@ -1,0 +1,155 @@
+button.header{
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 32px;
+    transition: linear 0.2s;
+    width: 32px;
+}
+
+    button.header:hover{
+        transform: scale(105%);
+    }
+
+button.header-i{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    height: 32px;
+    transition: linear 0.2s;
+    width: 32px;
+}
+
+    button.header-i:hover{
+        transform: scale(105%);
+    }
+
+button.side{
+    background-color: transparent;
+    background-image: url(../img/site/side.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 32px;
+    border: none;
+    cursor: pointer;
+    height: 32px;
+    transition: linear 0.2s;
+    width: 32px;
+}
+
+    button.side:hover{
+        transform: scale(105%);
+    }
+
+div.header{
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 32px;
+    position: fixed;
+    width: 100%;
+    z-index: 4;
+}
+
+div.noti{
+    background-color: #E5E5E5;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: none;
+    margin-top: 70px;
+    max-height: 480px;
+    overflow-x: none;
+    overflow-y: auto;
+    position: fixed;
+    right: 32px;
+    width: 360px;
+    z-index: 4;
+}
+
+div.noti-o{
+    border-top: 2px solid #ECECEC;
+    display: flex;
+    padding: 16px;
+    transition: linear 0.2s;
+}
+
+    div.noti-o:hover{
+        background-color: #ECECEC;
+    }
+
+div.perfil{
+    background-color: #E5E5E5;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: none;
+    margin-top: 70px;
+    position: fixed;
+    right: 32px;
+    z-index: 6;
+}
+
+div.perfil-o{
+    cursor: pointer;
+    padding: 16px 32px; 
+    text-align: center;
+    transition: linear 0.2s;
+}
+
+    div.perfil-o:hover{
+        background-color: #ECECEC;
+        transform: scale(105%);
+    }
+
+div.shadow{
+    display: none;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+}
+
+h1.header{
+    font-size: 16px;
+}
+
+h1.noti{
+    font-size: 14px;
+}
+
+h2.noti{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+img.header{
+    border-radius: 50%;
+    height: 32px;
+    object-fit: cover;
+    width: 32px;
+}
+
+img.header-i{
+    height: 32px;
+    object-fit: cover;
+    width: 32px;
+}
+
+img.logo{
+    height: 32px;
+    object-fit: cover;
+    width: 32px;
+}
+
+img.noti{
+    border-radius: 50%;
+    height: 64px;
+    object-fit: cover;
+    width: 64px;
+}
+
+p.noti{
+    font-size: 12px;
+}
+
+p.perfil{
+    font-size: 14px;
+}
